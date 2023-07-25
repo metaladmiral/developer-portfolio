@@ -12,27 +12,23 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Prakhar Sinha',
+  title: "Hi all, I'm Prakhar",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
-  resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    "I'm passionate Full Stack web developer having an experience of web applications with PHP Core, Laravel, MySQL Python, Django, React.js and Blockchain development on Ethereum, Solidity, Web3.js.",
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'metaladmiral',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  linkedin: 'https://www.linkedin.com/in/prakhar-metaladmiral/',
+  github: 'https://github.com/metaladmiral',
+  instagram: 'https://www.instagram.com/prkhr.sinha96/',
+  twitter: 'https://twitter.com/metaladmiral96',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -46,8 +42,11 @@ export const skillsSection: SkillsSectionType = {
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Building responsive Websites with Bootstrap'),
+        emoji(
+          '⚡ Building Apps with Complex Backend and APIs with Laravel, Core PHP and MySQL'
+        ),
+        emoji('⚡ Building RESTful APIs in Django, Flask and Laravel'),
       ],
       softwareSkills: [
         {
@@ -67,10 +66,6 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
         },
         {
-          skillName: 'Nextjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-light-next',
-        },
-        {
           skillName: 'Python',
           fontAwesomeClassName: 'logos:python',
         },
@@ -78,74 +73,21 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Django',
           fontAwesomeClassName: 'vscode-icons:file-type-django',
         },
-
         {
-          skillName: 'Redux',
-          fontAwesomeClassName: 'logos:redux',
+          skillName: 'PHP',
+          fontAwesomeClassName: 'logos:php',
         },
         {
-          skillName: 'NPM',
-          fontAwesomeClassName: 'logos:npm-icon',
+          skillName: 'MySQL',
+          fontAwesomeClassName: 'logos:mysql',
         },
         {
-          skillName: 'Yarn',
-          fontAwesomeClassName: 'logos:yarn',
-        },
-      ],
-    },
-    {
-      title: 'Cloud Infra-Architecture',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
-        emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
-        ),
-        emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
-        ),
-      ],
-      softwareSkills: [
-        // ? Check README To get icon details
-        {
-          skillName: 'AWS',
-          fontAwesomeClassName: 'logos:aws',
+          skillName: 'Laravel',
+          fontAwesomeClassName: 'skill-icons:laravel-dark',
         },
         {
-          skillName: 'Azure',
-          fontAwesomeClassName: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Heroku',
-          fontAwesomeClassName: 'logos:heroku-icon',
-        },
-        {
-          skillName: 'PostgreSQL',
-          fontAwesomeClassName: 'logos:postgresql',
-        },
-        {
-          skillName: 'Github',
-          fontAwesomeClassName: 'akar-icons:github-fill',
-        },
-        {
-          skillName: 'Docker',
-          fontAwesomeClassName: 'logos:docker-icon',
-        },
-        {
-          skillName: 'Github Actions',
-          fontAwesomeClassName: 'logos:github-actions',
-        },
-        {
-          skillName: 'Cloudinary',
-          fontAwesomeClassName: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          fontAwesomeClassName: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          fontAwesomeClassName: 'logos:sentry-icon',
+          skillName: 'Flask',
+          fontAwesomeClassName: 'devicon:flask',
         },
       ],
     },
@@ -164,7 +106,7 @@ export const skillsSection: SkillsSectionType = {
         ),
         emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
         emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
+          '⚡ Building Dapps with React.js & Solidity using Web3.js & IPFS'
         ),
       ],
       softwareSkills: [
@@ -184,9 +126,44 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Metamask',
           fontAwesomeClassName: 'logos:metamask-icon',
         },
+      ],
+    },
+    {
+      title: 'Other Technologies',
+      lottieAnimationFile: '/lottie/skills/hacker.json', // Path of Lottie Animation JSON File
+      skills: [
+        emoji('⚡ Interested in Embedded Systems (arduino, stm32, ESP32)'),
+        emoji('⚡ Experience with Embedded C and x86 Asssembly'),
+        emoji(
+          '⚡ Experience with creating reverse-shells using Python, Socket Programming and Multi-Threading'
+        ),
+        emoji(
+          '⚡ Experience with creating simple GUI based apps using Tkinter Python'
+        ),
+        emoji(
+          '⚡ Interested in Cyber-Security in fields like Reverse Engineering, Network Scanning and Alteration  (ARP), Web Pen Testing, etc. '
+        ),
+      ],
+      softwareSkills: [
         {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
+          skillName: 'Arduino',
+          fontAwesomeClassName: 'logos:arduino',
+        },
+        {
+          skillName: 'Embedded C',
+          fontAwesomeClassName: 'devicon-plain:embeddedc-wordmark',
+        },
+        {
+          skillName: 'NMap',
+          fontAwesomeClassName: 'file-icons:nmap',
+        },
+        {
+          skillName: 'Kali Linux',
+          fontAwesomeClassName: 'simple-icons:kalilinux',
+        },
+        {
+          skillName: 'Python',
+          fontAwesomeClassName: 'logos:python',
         },
       ],
     },
@@ -195,123 +172,98 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
-  },
-  {
     Stack: 'Backend',
-    progressPercentage: '70',
+    progressPercentage: '90',
   },
   {
     Stack: 'Programming',
-    progressPercentage: '60',
+    progressPercentage: '80',
+  },
+  {
+    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
+    progressPercentage: '75', //Insert relative proficiency in percentage
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
+    schoolName: 'Chandigarh Group of Colleges',
+    subHeader: 'Bachelor of Engineering in Computer Science',
+    duration: 'August 2022 - 2026',
+    desc: 'Served as a CTO in a digital marketing and web development agency.',
     grade: 'Grade A',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Won 3 inter-college Programming Contests in my First Year among all students from all batches.',
+      'Improved Communication Skills',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
+    role: 'Chief Technology Officer',
+    company: 'Makes360',
+    companyLogo: '/img/icons/common/download.jpeg',
+    date: 'Apr 2022 – July 2023',
     desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
-  },
-  {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-  },
-  {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-  },
-  {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'Apartment Rental Website (LeBailMobilite)',
+    desc: 'LeBailMobilite is the first platform dedicated to mobility lease. It includes features like chat-system, multiple types of user - landlord and tenant, Proposal System, Multi-Language Support, Search Filters, Image Optimization, etc.',
+    link: 'https://lebailmobilite.com/',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'MemeLok',
+    desc: 'Memelok is a social media website where you get full copyright to your meme as a memer. Users can watch memes based on their interest. Included features like Real-time Chat System using Websockets and NodeJS, Friends System, Image Optimization using flask, ',
+    github: 'https://github.com/metaladmiral/memelok-mono',
+    link: 'https://memelok.prakharsinha.xyz/',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: 'CGCcms - Attendify and Everwall',
+    desc: 'Attendify was a student/faculty management system with features like multiple level of users - Superadmin, Faculty and Students. Here, Superadmin can assign Class Counselorship and Subjects to a Faculty and Faculties can mark everyday attendance of students. Also, they can add students to their class and edit their details like marks and personal details. Students can checkout their Marks, Everyday attendance and other details.',
+    link: 'https://cgccms.in/',
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    name: 'Foodee',
+    desc: 'Foodee 🍉 is a food recommendation system which suggests users his next meal (recipe name) based on user characteristics. Currently, Foodee is and API and has future scopes.',
+    github: 'https://github.com/metaladmiral/Foodee',
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: 'John Smith',
+    name: 'Luca Malandrino',
     feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+      '"Prakhar is a young but already experienced full stack developer who is full of good will to learn and complete projects. Communication with him is great, he always responds to messages and you can communicate easily. Prakhar made a real estate listing site for me, initially there was some misunderstanding also because of the poor details he was provided, but thanks to the excellent communication we managed to get the result we expected. Highly recommended."',
   },
   {
-    name: 'John Smith',
+    name: 'Anish Kumar',
     feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+      '"Prakhar made multiple complex full-stack projects with us at Makes360. We made student management systems for multiple colleges, Event Management systems, Doc Classification webapp and an Android App as well. On-time, clear and transparent communication. Have enjoyed working with him."',
   },
 ];
 
 // option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
+export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Prakhar Sinha Portfolio',
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
+  author: 'Prakhar Sinha',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Prakhar',
+    'Prakhar Sinha',
+    '@metaladmiral96',
+    'prkhr.sinha96',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Prakhar Portfolio ',
+    'Prakhar Sinha Portfolio',
   ],
 };
